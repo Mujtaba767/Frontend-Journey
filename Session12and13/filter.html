@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .image{
+            width: 100px;
+            height: 100px;
+        }
+        #image1{
+            filter: invert(1);
+        }
+        #image2{
+            filter: grayscale(100%);
+        }
+        #image3{
+            filter: contrast(150%);
+        }
+        #image4{
+            filter: saturate(180%);
+        }
+         #image5{
+            filter: opacity(1);
+        }
+         #image6{
+            filter: blur(10px);
+        }
+        #image6:hover{
+            filter: blur(1px);
+            cursor:pointer;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="main1">
+        <img src="hassan1.jpeg" alt="" id="image1">
+        <img src="hassan2.jpeg" alt="" id="image2">
+    </div>
+    <div class="main2">
+        <img src="hassan1.jpeg" alt="" id="image3">
+        <img src="hassan2.jpeg" alt="" id="image4">
+    </div>
+    <div class="main2">
+        <img src="hassan1.jpeg" alt="" id="image5">
+        <img src="hassan2.jpeg" alt="" id="image6">
+    </div>
+
+</body>
+</html>
